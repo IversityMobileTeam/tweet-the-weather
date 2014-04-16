@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Positive Fake Tweet 1",
+    "positive": true,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Negative Fake Tweet 2",
+    "positive": false,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Positive Fake Tweet 3",
+    "positive": true,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Negative Fake Tweet 4",
+    "positive": false,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Positive Fake Tweet 5",
+    "positive": true,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Negative Fake Tweet 6",
+    "positive": false,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Positive Fake Tweet 7",
+    "positive": true,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Negative Fake Tweet 8",
+    "positive": false,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Positive Fake Tweet 9",
+    "positive": true,
+    "tags": [ "cloudy", "stormy" ]
+  },
+  {
+    "text": "Negative Fake Tweet 10",
+    "positive": false,
+    "tags": [ "cloudy", "stormy" ]
+  }
+]
