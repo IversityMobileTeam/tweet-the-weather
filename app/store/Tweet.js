@@ -1,18 +1,15 @@
-Ext.define('tweet-the-weather.store.Tweet',{
+Ext.define('TweetTheWeather.store.Tweet', {
     extend: 'Ext.data.Store',
-    requires:[
-        'tweet-the-weather.model.Tweet',
+    requires: [
+        'TweetTheWeather.model.Tweet'
     ],
-    config: {
-        model: 'tweet-the-weather.model.Tweet',
-        storeId: 'Tweet',
-        proxy: {
-			type: 'ajax',
-			url : 'http:/localhost:9000/resources/tweets.json',
-			reader: {
-				type: 'json',
-			},
-		autoLoad: 'true'
+    model: 'TweetTheWeather.model.Tweet',
+    storeId: 'TweetStore',
+    proxy: {
+		type: 'ajax',
+		url: '/resources/tweets.json',
+		reader: {
+			type: 'json'
 		}
-    }
+	}
 });
