@@ -3,13 +3,15 @@ Ext.define('TweetTheWeather.store.Tweet', {
     requires: [
         'TweetTheWeather.model.Tweet'
     ],
-    model: 'TweetTheWeather.model.Tweet',
-    storeId: 'TweetStore',
-    proxy: {
-		type: 'ajax',
-		url: '/resources/tweets.json',
-		reader: {
-			type: 'json'
-		}
-	}
+    config: {
+        model: 'TweetTheWeather.model.Tweet',
+        storeId: 'TweetStore',
+        proxy: {
+            type: 'ajax',
+            url: '/resources/tweets.json',
+            reader: {
+                type: 'json'
+            }
+        }
+    }
 });
