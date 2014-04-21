@@ -23,7 +23,7 @@ Ext.application({
     ],
     
     stores: [
-        'Tweet'
+        
     ],
 
     icon: {
