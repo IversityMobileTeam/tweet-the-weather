@@ -21,6 +21,10 @@ Ext.application({
         'Main',
         'TweetList'
     ],
+    
+    stores: [
+        'Tweet'
+    ],
 
     icon: {
         '57': 'resources/icons/Icon.png',
