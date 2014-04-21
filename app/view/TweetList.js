@@ -1,32 +1,28 @@
 Ext.define('TweetTheWeather.view.TweetList', {
     extend: 'Ext.Container',
-    requires:
-    [
+    requires: [
         'Ext.dataview.List',
-        'TweetTheWeather.store.Tweet',
         'Ext.TitleBar',
-        'Ext.Button'
+        'Ext.Button',
+        'TweetTheWeather.store.Tweet',
     ],
     alias: 'widget.tweetlist',
-    config: 
-    {
-        layout: 
-        {
+    config: {
+        
+        layout: {
             type: 'fit'
         },
-        items: 
-        [
+        items: [
             {
-            xtype: 'titlebar',
-            title: 'Tweets',
-            docked: 'top',
-            items: 
-                [
-                    {
-                        xtype: 'button',
-                        text: 'Back',
-                        ui: 'back'
-                    }
+                xtype: 'titlebar',
+                title: 'Tweets',
+                docked: 'top',
+                items: [
+                        {
+                            xtype: 'button',
+                            text: 'Back',
+                            ui: 'back'
+                        }
                 ]
             },
             {
