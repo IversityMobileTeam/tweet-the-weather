@@ -6,6 +6,7 @@ Ext.define('TweetTheWeather.store.Tweet', {
     config: {
         model: 'TweetTheWeather.model.Tweet',
         storeId: 'TweetStore',
+        autoLoad: true,
         proxy: {
             type: 'ajax',
             url: '/resources/tweets.json',
