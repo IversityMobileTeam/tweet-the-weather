@@ -8,7 +8,6 @@ Ext.define('TweetTheWeather.view.TweetList', {
     ],
     alias: 'widget.tweetlist',
     config: {
-        
         layout: {
             type: 'fit'
         },
@@ -18,11 +17,11 @@ Ext.define('TweetTheWeather.view.TweetList', {
                 title: 'Tweets',
                 docked: 'top',
                 items: [
-                        {
-                            xtype: 'button',
-                            text: 'Back',
-                            ui: 'back'
-                        }
+                    {
+                        xtype: 'button',
+                        text: 'Back',
+                        ui: 'back'
+                    }
                 ]
             },
             {
