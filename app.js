@@ -18,10 +18,9 @@ Ext.application({
     ],
 
     views: [
-        'Main',
-        'TweetList'
+        'Main'
     ],
-    
+
     stores: [
         'Tweet'
     ],
