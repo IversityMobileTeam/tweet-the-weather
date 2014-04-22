@@ -1,6 +1,10 @@
 Ext.define('TweetTheWeather.controller.Main', {
 extend: 'Ext.app.Controller',
 
+requires: [
+    'TweetTheWeather.view.TweetList'
+],
+
 config: {
     views: [
         'Main'
