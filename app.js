@@ -18,8 +18,8 @@ Ext.application({
     ],
 
     controllers: [
-        "Main",
-        "TweetList"
+        'Main',
+        'TweetList'
     ],
     
     views: [
