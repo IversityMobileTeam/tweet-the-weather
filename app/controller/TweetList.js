@@ -18,7 +18,7 @@ Ext.define('TweetTheWeather.controller.TweetList', {
     },
 
     onBackButton: function(button, event, options) {
-        // TODO
+        console.log('onBackButton');
     }
 
 });
