@@ -19,7 +19,6 @@ Ext.application({
 
     controllers: [
         'Main',
-        'TweetList'
     ],
     
     views: [
