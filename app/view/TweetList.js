@@ -21,7 +21,7 @@ Ext.define('TweetTheWeather.view.TweetList', {
                         xtype: 'button',
                         text: 'Back',
                         ui: 'back',
-                        id: 'back-btn'
+                        id: 'backButton'
                     }
                 ]
             },
