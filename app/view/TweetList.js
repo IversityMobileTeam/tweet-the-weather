@@ -6,7 +6,7 @@ Ext.define('TweetTheWeather.view.TweetList', {
         'Ext.Button',
         'TweetTheWeather.store.Tweet',
     ],
-    alias: 'widget.tweetlist',
+    alias: 'widget.TweetListView',
     config: {
         layout: {
             type: 'fit'
@@ -21,7 +21,7 @@ Ext.define('TweetTheWeather.view.TweetList', {
                         xtype: 'button',
                         text: 'Back',
                         ui: 'back',
-                        id: 'back-btn'
+                        id: 'backButton'
                     }
                 ]
             },
