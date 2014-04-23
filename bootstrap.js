@@ -743,7 +743,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "TweetTheWeather.view.Main": []
+  "TweetTheWeather.controller.Main": [],
+  "TweetTheWeather.model.Tweet": [],
+  "TweetTheWeather.store.Tweet": [],
+  "TweetTheWeather.view.Main": [],
+  "TweetTheWeather.view.TweetList": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1687,7 +1691,13 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "TweetTheWeather.controller.Main": [],
+  "TweetTheWeather.model.Tweet": [],
+  "TweetTheWeather.store.Tweet": [],
   "TweetTheWeather.view.Main": [
     "widget.main"
+  ],
+  "TweetTheWeather.view.TweetList": [
+    "widget.tweetlist"
   ]
 });
