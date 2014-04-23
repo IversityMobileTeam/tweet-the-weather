@@ -1,5 +1,6 @@
 Ext.define('TweetTheWeather.view.Main', {
     extend: 'Ext.tab.Panel',
+    alias: 'widget.MainView',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
