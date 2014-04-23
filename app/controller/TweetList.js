@@ -3,7 +3,7 @@ Ext.define('TweetTheWeather.controller.TweetList', {
     extend: 'Ext.app.Controller',
     
     requires: [
-        'TweetTheWeather.view.Main'
+        'TweetTheWeather.view.TweetList'
     ],
     
     config: {
@@ -17,14 +17,14 @@ Ext.define('TweetTheWeather.controller.TweetList', {
         
         control: {
             backButton: {
-                tap: "onBackButton"
+                tap: 'onBackButton'
             }
         }
     },
     
     onBackButton: function(button, event, options) {
         button.up('navigationview').push({
-            xtype: 'main',
+            xtype: 'MainView',
         });
     },
 
