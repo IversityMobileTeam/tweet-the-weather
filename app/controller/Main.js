@@ -1,4 +1,5 @@
 Ext.define('TweetTheWeather.controller.Main', {
+
 extend: 'Ext.app.Controller',
 
 requires: [
@@ -11,29 +12,29 @@ config: {
     ],
 
     refs: {
-        upBtn: 'upBtn',
-        downBtn: 'downBtn'
+        likeButton: 'likeButton',
+        dislikeButton: 'dislikeButton'
         
     },
 
     control: {
-        '#upBtn': {
-            tap: 'onUpBtn'
+        '#likeButton': {
+            tap: 'onLikeButton'
         },
-        '#downBtn': {
-            tap: 'onDownBtn'
+        '#dislikeButton': {
+            tap: 'onDislikeButton'
         }
     }
 },
 
-onUpBtn: function(button, e, options) {
+onLikeButton: function(button, event, options) {
     button.up('navigationview').push({
         xtype: 'tweetlist',
         title: 'Positive Tweet'
     });
 },
 
-onDownBtn: function(button, e, options) {
+onDislikeButton: function(button, event, options) {
     button.up('navigationview').push({
         xtype: 'tweetlist',
         title: 'Negative Tweet'
