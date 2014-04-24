@@ -47,5 +47,18 @@ Ext.define('TweetTheWeather.view.Main', {
                 ]
             }
         ]
+    },
+    initialize: function(me, eOpts) {
+        var long = 48.834;
+        var lat = 2.394;
+        Ext.data.JsonP.request(
+            { 
+                url: 'http://api.worldweatheronline.com/free/v1/weather.ashx?q='+long+'%2C'+lat+'&format=json&num_of_days=5&key=tsd3famkb4qeau8d9fx7gmjt',
+                method:'GET',
+                success: function(result, request) {
+                    console.log(result.data.current_condition[0].temp_C);
+                }
+            }
+       );
     }
 });
