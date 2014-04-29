@@ -72,7 +72,7 @@ Ext.define('TweetTheWeather.view.Main', {
                         console.log(cityname.search_api.result[0].areaName[0].value);
                     }
                 }
-            );
+            ); // just send the location name and the temperature to console according to geolocation
         });
     }
 });
