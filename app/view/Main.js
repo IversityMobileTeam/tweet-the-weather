@@ -9,21 +9,38 @@ Ext.define('TweetTheWeather.view.Main', {
         
 
         items: [
-            {
-                title: 'Tweet the Weather',
-                
-		items: [
-			
-			{xtype: 'label' , 
-			html: '<div align = "center"> <font size = "3"> Buenos Aires, Argentina <br><br> </font> <font size = "7"> <b>35° C </b> </font> <br> </font> <font size = "5"><b>It&apos;s pretty hot!</b></font>  <br><br><br><font size = "3"> Do you like it? <br><br> </font></div> <br><br><img src="app/view/thumb-up.jpg"/width=146 height=166>       <img src="app/view/thumb-down.jpg"/width=146 height=166>',
-			centered: true},
-			
-		]
-                
-                
-
-                
-            },
+	     {
+		title: 'Tweet the Weather'
+	     },
+	     {
+		layout:{
+			type: 'vbox',
+			align: 'center'
+			},
+			items: [
+			    {
+ 				xtype: 'label' ,
+				html: '<font size = "3"> Buenos Aires, Argentina</font>',
+			    },
+			    {
+ 				xtype: 'label' ,
+				html: '<font size = "7"> <b>35° C </b> </font>',
+			    },
+			    {
+ 				xtype: 'label' ,
+				html: '<font size = "5"><b>It&apos;s pretty hot!</b></font>',
+			    },
+			    {
+ 				xtype: 'label' ,
+				html: '<font size = "3"> Do you like it? <br><br> </font>',
+			    },
+			    {
+ 				xtype: 'label' ,
+				html: '<img src="app/view/thumb-up.jpg"/width=146 height=166>       <img src="app/view/thumb-down.jpg"/width=146 height=166>',
+			    },
+			]
+	     }
+      
             
         ]
     }
