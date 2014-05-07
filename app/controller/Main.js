@@ -22,10 +22,16 @@ Ext.define('TweetTheWeather.controller.Main', {
     },
 
     onLikeButton: function(button, event, options) {
-        // TODO
+        button.up('navigationview').push({
+            xtype: 'tweetlist',
+            title: 'Like'
+        });
     },
 
     onDislikeButton: function(button, event, options) {
-        // TODO
+        button.up('navigationview').push({
+            xtype: 'tweetlist',
+            title: 'Dislike'
+        });
     }
 });
