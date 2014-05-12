@@ -2,21 +2,19 @@ Ext.define('TweetTheWeather.view.Tweet', {
     extend: 'Ext.form.Panel',
     xtype: 'tweet',
     requires: [
-		'Ext.form.*',
-		'Ext.TitleBar',
-		'Ext.field.*',
-		'Ext.Button',
-		'Ext.TextArea'
-    ],
-	
+        'Ext.form.*',
+        'Ext.TitleBar',
+        'Ext.field.*',
+        'Ext.Button',
+        'Ext.TextArea'
+    ],	
     config: {
-        title: 'Tweet',
-        
+        title: 'Tweet',        
         items: [
-			{
+		    {
                 xtype: 'titlebar',
                 title: 'Editing Tweet',
-                docked: 'top',
+			    docked: 'top',
                 items: [
                     {
                         xtype: 'button',
@@ -29,13 +27,13 @@ Ext.define('TweetTheWeather.view.Tweet', {
             {
                 name: 'tweetText',
                 xtype: 'textareafield',
-				grow: true,
+			    grow: true,
                 placeHolder: 'Put your text here...'
             },
             {
                 xtype: 'button',
                 text: 'Tweet!!',
-				id: 'tweetBtn',
+			    id: 'tweetBtn',
                 ui: 'confirm'
             }
         ]        
