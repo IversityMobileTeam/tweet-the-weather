@@ -20,7 +20,7 @@ Ext.define('TweetTheWeather.view.Tweet', {
                         xtype: 'button',
                         text: 'Back',
                         ui: 'back',
-                        id: 'backBtn'
+                        id: 'backButton'
                     }
                 ]
             },
@@ -33,7 +33,7 @@ Ext.define('TweetTheWeather.view.Tweet', {
             {
                 xtype: 'button',
                 text: 'Tweet!!',
-                id: 'tweetBtn',
+                id: 'tweetButton',
                 ui: 'confirm'
             }
         ]
