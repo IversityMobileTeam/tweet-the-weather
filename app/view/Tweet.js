@@ -11,7 +11,7 @@ Ext.define('TweetTheWeather.view.Tweet', {
     config: {
         title: 'Tweet',        
         items: [
-		    {
+            {
                 xtype: 'titlebar',
                 title: 'Editing Tweet',
 			    docked: 'top',
