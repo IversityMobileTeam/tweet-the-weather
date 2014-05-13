@@ -1,0 +1,15 @@
+.font--big {
+  font-size: 7px;
+}
+
+.font--small {
+  font-size: 3px;
+}
+
+.font--medium {
+  font-size: 5px;
+}
+
+.font--bold {
+  font: bold;
+}
