@@ -6,7 +6,7 @@
 		   ],
       	config: {       
   
-          items: [             
+         items: [             
  	     {
  		title: 'Tweet the Weather'
  	     },
@@ -18,44 +18,44 @@
 		items: [
 			    {
  				xtype: 'label',
-				cls: ['font--small'],
-				html: '<p> Buenos Aires, Argentina</p>',
+				cls: 'font--small',
+				html: ['Buenos Aires, Argentina'],
 		            },
  			    {
   				xtype: 'label',
 				cls: ['font--big','font--bold'],
- 				html: '<p>35° C</p>',
+ 				html: '35° C',
  			    },
  			    {
   				xtype: 'label',
 				cls: ['font--medium','font--bold'],
- 				html: '<p>It&apos;s pretty hot!</p>',
+ 				html: 'It&apos;s pretty hot!',
  			    },
  			    {
   				xtype: 'label',
-				cls: ['font--small'],
- 				html: '<p> Do you like it?</p>',
+				cls: 'font--small',
+ 				html:'Do you like it?',
 		            },
 			    {
  				layout: {
-				type: 'vbox',
+				type: 'hbox',
 				align: 'center'
 					},
 					items: [
- 			    			{
-  						xtype: 'label',
-						left: '10px',
- 						html: '<img src="resources/images/thumb-down.jpg"/width=146 height=166>',
-		            			},
- 			    			{
-  						xtype: 'label',
-						right: '10px',
- 						html: '<img src="resources/images/thumb-up.jpg"/width=146 height=166>',
-			    			},
-						]		
- 					     }
-			]		
- 	    	 } 
-         	 ]
+ 			    				{
+  							xtype: 'label',
+							left: '10px',
+ 							html: '<img src="resources/images/thumb-down.jpg"/width="146" height="166">',
+		            				},
+ 			    				{
+  							xtype: 'label',
+							right: '10px',
+ 							html: '<img src="resources/images/thumb-up.jpg"/width="146" height="166">',
+			    				},
+					        ]		
+ 					  }
+			 ]		
+ 	    	} 
+              ]
      	 }
   }); 
