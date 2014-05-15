@@ -42,16 +42,16 @@
 				align: 'center'
 					},
 					items: [
- 			    				{
-  							xtype: 'label',
-							left: '10px',
- 							html: '<img src="resources/images/thumb-down.jpg"/width="146" height="166">',
-		            				},
- 			    				{
-  							xtype: 'label',
-							right: '10px',
- 							html: '<img src="resources/images/thumb-up.jpg"/width="146" height="166">',
-			    				},
+ 			    			{
+  						xtype: 'label',
+						left: '10px',
+ 						html: '<img src="resources/images/thumb-down.jpg"/width=146 height=166>',
+		            			},
+ 			    			{
+  						xtype: 'label',
+						right: '10px',
+ 						html: '<img src="resources/images/thumb-up.jpg"/width=146 height=166>',
+			    			},
 					        ]		
  					  }
 			 ]		
