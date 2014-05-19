@@ -25,9 +25,15 @@ Ext.application({
         'Main',
         'TweetList'
     ],
-
+    
+    models: [
+        'Tweet',
+        'Place'
+    ],
+    
     stores: [
-        'Tweet'
+        'Tweet',
+        'Place'
     ],
 
     icon: {
