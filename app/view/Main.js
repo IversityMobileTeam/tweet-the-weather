@@ -16,27 +16,27 @@
 	align: 'center'
 		},
 		items: [
-			    {
+				{
  				xtype: 'label',
 				cls: 'font--small',
 				html: ['Buenos Aires, Argentina'],
-		            },
- 			    {
+		            	},
+ 			    	{
   				xtype: 'label',
 				cls: ['font--big','font--bold'],
  				html: '35° C',
- 			    },
- 			    {
+ 				},
+ 				{
   				xtype: 'label',
 				cls: ['font--medium','font--bold'],
  				html: 'It&apos;s pretty hot!',
- 			    },
- 			    {
+ 			    	},
+ 			    	{
   				xtype: 'label',
 				cls: 'font--small',
  				html:'Do you like it?',
-		            },
-			    {
+		 		},
+			    	{
  				layout: {
 				type: 'hbox',
 				align: 'center'
@@ -52,10 +52,10 @@
 						right: '10px',
  						html: '<img src="resources/images/thumb-up.jpg"/width=146 height=166>',
 			    			},
-					        ]		
- 					  }
-			 ]		
+					  	]		
+ 					}
+			]		
  	    	} 
-              ]
-     	 }
-  }); 
+        	]
+ 	}
+}); 
