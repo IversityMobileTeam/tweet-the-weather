@@ -78,6 +78,10 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+	{
+            "path": "resources/css/font.css",
+            "update": "delta"
         }
     ],
 

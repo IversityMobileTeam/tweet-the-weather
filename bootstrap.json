@@ -4,4 +4,4 @@
  * combination of content from app.json, and all required package's package.json
  * files.  Customizations should be placed in app.json.
  */
-{"id":"a5119fd7-2b98-446a-991f-f502d25d173e","js":[{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app/lib/geolocation.js","update":"delta"},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/app.css","update":"delta"}]}
+{"id":"a5119fd7-2b98-446a-991f-f502d25d173e","js":[{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app/lib/geolocation.js","update":"delta"},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/app.css","update":"delta"},{"path":"resources/css/font.css","update":"delta"}]}
