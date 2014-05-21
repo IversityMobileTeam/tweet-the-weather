@@ -58,4 +58,4 @@ Ext.define('TweetTheWeather.view.Main', {
 	        	           } 
 	        	           ]
 	           }
-}); 
+});
