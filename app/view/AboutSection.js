@@ -19,58 +19,58 @@ Ext.define('TweetTheWeather.view.AboutSection', {
                     {
                         xtype: 'toolbar',
                         docked: 'top',
-						items: [
+                        items: [
                             {
                                 xtype: 'image',
-								src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },						
-                            {
-                                xtype: 'label',  
-								text: 'My Name1'
-                            }
-						]
-                    },
-					{
-                        xtype: 'toolbar',
-                        docked: 'top',
-						items: [
-                            {
-                                xtype: 'image', 
-								src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },						
-                            {
-                                xtype: 'label', 
-								text: 'My Name2'
-                            }
-						]
-                    },
-					{
-                        xtype: 'toolbar',
-                        docked: 'top',
-						items: [
-                            {
-                                xtype: 'image', 
-								src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },						
-                            {
-                                xtype: 'label', 
-								text: 'My Name3'
-                            }
-						]
-                    },
-					{
-                        xtype: 'toolbar',
-                        docked: 'top',
-						items: [
-                            {
-                                xtype: 'image', 
-								src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },						
+                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
+                            },
                             {
                                 xtype: 'label',
-								text: 'My Name4'
+                                text: 'My Name1'
                             }
-						]
+                        ]
+                    },
+                    {
+                        xtype: 'toolbar',
+                        docked: 'top',
+                        items: [
+                            {
+                                xtype: 'image',
+                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
+                            },
+                            {
+                                xtype: 'label',
+                                text: 'My Name2'
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'toolbar',
+                        docked: 'top',
+                        items: [
+                            {
+                                xtype: 'image',
+                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
+                            },
+                            {
+                                xtype: 'label',
+                                text: 'My Name3'
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'toolbar',
+                        docked: 'top',
+                        items: [
+                            {
+                                xtype: 'image',
+                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
+                            },
+                            {
+                                xtype: 'label',
+                                text: 'My Name4'
+                            }
+                        ]
                     }
                 ]
             }
