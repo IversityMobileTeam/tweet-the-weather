@@ -3,7 +3,7 @@ Ext.define('TweetTheWeather.view.AboutSection', {
     requires: [
         'Ext.List',
         'Ext.Label',
-        'Ext.Image'
+        'Ext.Img'
     ],
     alias: 'widget.AboutSectionView',
     config: {
