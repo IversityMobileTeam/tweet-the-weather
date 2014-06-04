@@ -1,77 +1,34 @@
 Ext.define('TweetTheWeather.view.AboutSection', {
-    extend: 'Ext.Container',
-    requires: [
-        'Ext.List',
-        'Ext.Label',
-        'Ext.Img'
+    extend: 'Ext.dataview.List',
+	requires: [
+        'TweetTheWeather.store.Developers'
     ],
-    alias: 'widget.AboutSectionView',
+	id: 'developerList',
+
     config: {
-        layout: {
-            type: 'fit'
-        },
-        items: [
+		items: [
             {
-                xtype: 'list',
-                itemId: 'AboutPage',
-                ui: 'round',
+                xtype: 'titlebar',
+                title: 'Developers',
+                docked: 'top',
                 items: [
                     {
-                        xtype: 'toolbar',
-                        docked: 'top',
-                        items: [
-                            {
-                                xtype: 'image',
-                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },
-                            {
-                                xtype: 'label',
-                                text: 'My Name1'
-                            }
-                        ]
-                    },
-                    {
-                        xtype: 'toolbar',
-                        docked: 'top',
-                        items: [
-                            {
-                                xtype: 'image',
-                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },
-                            {
-                                xtype: 'label',
-                                text: 'My Name2'
-                            }
-                        ]
-                    },
-                    {
-                        xtype: 'toolbar',
-                        docked: 'top',
-                        items: [
-                            {
-                                xtype: 'image',
-                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },
-                            {
-                                xtype: 'label',
-                                text: 'My Name3'
-                            }
-                        ]
-                    },
-                    {
-                        xtype: 'toolbar',
-                        docked: 'top',
-                        items: [
-                            {
-                                xtype: 'image',
-                                src: 'http://www.gravatar.com/avatar/2b0aa71e3d31c0c4709ad2718655c2ac'
-                            },
-                            {
-                                xtype: 'label',
-                                text: 'My Name4'
-                            }
-                        ]
+                        xtype: 'button',
+                        text: 'Back',
+                        ui: 'back',
+                        id: 'backButton'
                     }
+                ]
+            },
+            {
+                xtype: 'list',
+                store: 'Developers',
+                itemHeight: 89,
+                emptyText: 'Loading list of Developers...',
+                itemTpl: [
+                    '<div class="developer-list-item">',
+                        '<img src="http://www.gravatar.com/avatar/{image_src}.jpeg">&nbsp{lastName}, {firstName}',
+                    '</div>'
                 ]
             }
         ]
