@@ -1,12 +1,12 @@
 Ext.define('TweetTheWeather.view.AboutSection', {
     extend: 'Ext.dataview.List',
-	requires: [
+    requires: [
         'TweetTheWeather.store.Developers'
     ],
-	id: 'developerList',
+    id: 'developerList',
 
     config: {
-		items: [
+        items: [
             {
                 xtype: 'titlebar',
                 title: 'Developers',
@@ -27,7 +27,7 @@ Ext.define('TweetTheWeather.view.AboutSection', {
                 emptyText: 'Loading list of Developers...',
                 itemTpl: [
                     '<div class="developer-list-item">',
-                        '<img src="http://www.gravatar.com/avatar/{image_src}.jpeg">&nbsp{lastName}, {firstName}',
+                        '<img src="http://www.gravatar.com/avatar/{imageSrc}.jpeg">&nbsp{firstName} {lastName}',
                     '</div>'
                 ]
             }

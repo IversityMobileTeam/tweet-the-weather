@@ -8,7 +8,7 @@ Ext.define('TweetTheWeather.store.Developers', {
             url: '/resources/developers.json',
             reader: {
                 type: 'json',
-                rootProperty: 'developer'
+                rootProperty: 'developers'
             }
         }
     }
