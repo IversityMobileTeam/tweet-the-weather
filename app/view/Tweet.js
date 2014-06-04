@@ -5,8 +5,7 @@ Ext.define('TweetTheWeather.view.Tweet', {
         'Ext.form.*',
         'Ext.TitleBar',
         'Ext.field.*',
-        'Ext.Button',
-        'Ext.TextArea'
+        'Ext.Button'
     ],
     config: {
         title: 'Tweet',
