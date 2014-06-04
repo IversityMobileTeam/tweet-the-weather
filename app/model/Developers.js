@@ -5,7 +5,7 @@ Ext.define('TweetTheWeather.model.Developers', {
         fields: [
             { name: 'firstName', type: 'string' },
             { name: 'lastName', type: 'string' },
-			{ name: 'image_src', type: 'string' }
+            { name: 'image_src', type: 'string' }
         ]
     }
 });

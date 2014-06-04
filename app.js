@@ -19,7 +19,7 @@ Ext.application({
 
     controllers: [
         'Main',
-		'TweetList'
+        'TweetList'
     ],
 	
     models: [
@@ -29,13 +29,13 @@ Ext.application({
 	
     views: [
         'Main',
-		'AboutSection',
+        'AboutSection',
         'TweetList'
     ],
 
     stores: [
         'Tweet',
-		'Developers'
+        'Developers'
     ],
 
     icon: {
